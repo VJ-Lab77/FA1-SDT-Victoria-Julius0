@@ -45,7 +45,7 @@ namespace ATMSystem
 
             Console.WriteLine();
 
-            // Step 3: Enter withdrawal amount
+            //  Enter withdrawal amount
             double amountToWithdraw;
             bool isValidWithdrawal = false;
             bool transactionSuccess = false;
@@ -86,10 +86,10 @@ namespace ATMSystem
 
             Console.WriteLine();
 
-            // Step 4: Display transaction result
+            //  Display transaction result
             if (transactionSuccess)
             {
-                // Update balance
+                
                 balance -= amountToWithdraw;
                 DateTime transactionTime = DateTime.Now;
 
